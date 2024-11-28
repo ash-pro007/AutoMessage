@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_details"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp">
+
+        </TextView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnCreateMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button3"
+                android:text="@string/create_message"
+                android:textColor="#696c69"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnUseTemplateSchedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button3"
+                android:text="@string/use_template"
+                android:textColor="#696c69" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/edtMessageForSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="@string/create_message_hint"
+            android:inputType="textPersonName"
+            android:textColor="#2E2C2C"
+            android:textColorHighlight="@color/blue_main"
+            android:textColorHint="#433D3D"
+            android:textColorLink="@color/blue_main"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/edtNoOfMessages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button4"
+                android:ems="10"
+                android:inputType="number"
+                android:visibility="gone" />
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_spinner_background"
+                android:padding="20dp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="@string/enter_no_of_message"
+                android:textColor="#434040"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/edtShowNumberOfSchedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:width="60dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="@string/one"
+                android:textColor="#252222"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+        <TimePicker
+            android:id="@+id/timePickerScheduleMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnChooseDateOfScheduleMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_date"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/buttonOkSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button4"
+            android:text="@string/ok"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

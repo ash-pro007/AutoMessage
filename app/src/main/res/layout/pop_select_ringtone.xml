@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:id="@+id/rg_select_ringtone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_ringtone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Ringtone 1">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_ringtone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Ringtone 2">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_ringtone3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Ringtone 3">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_ringtone4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Ringtone 4">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_ringtone5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Ringtone 5">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_ringtone6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Ringtone 6">
+
+        </RadioButton>
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_selection_ringtone_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="@string/select">
+
+    </Button>
+
+</LinearLayout>

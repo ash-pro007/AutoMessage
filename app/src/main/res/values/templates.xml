@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="templates">
+        <item>I am busy, please contact me later</item>
+        <item>I am in meeting, please contact me later</item>
+        <item>I am sleeping, if not urgent contact me later</item>
+        <item>I am out of town, I will contact you later</item>
+    </string-array>
+</resources>
